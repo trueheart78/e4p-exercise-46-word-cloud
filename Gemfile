@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'simple_form'
+gem 'rack', '~> 1.6.0'
 
 group :development, :test do
   gem 'sqlite3'
