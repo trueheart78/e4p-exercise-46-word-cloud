@@ -1,2 +1,21 @@
 @import 'bootstrap-sprockets';
-@import 'bootstrap'
+@import 'bootstrap';
+
+.words {
+  display: inline;
+}
+
+.words-large {
+  @extend .words;
+  font-size: 20pt;
+}
+
+.words-medium {
+  @extend .words;
+  font-size: 16pt;
+}
+
+.words-small {
+  @extend .words;
+  font-size: 12pt;
+}

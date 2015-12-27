@@ -1,2 +1,10 @@
 <h1>Welcome to WordCloud</h1>
-<p>You'll see words here soon.</p>
+<% @words[:large].each do |word| %>
+  <div class='words-large'><%= word %></div>
+<% end %>
+<% @words[:medium].each do |word| %>
+  <div class='words-medium'><%= word %></div>
+<% end %>
+<% @words[:small].each do |word| %>
+  <div class='words-small'><%= word %></div>
+<% end %>
